@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/shanjingongzi/TaurusEngine/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/TaurusEngine.dir/main.cpp.o -c /home/shanjingongzi/TaurusEngine/main.cpp",
+  "file": "/home/shanjingongzi/TaurusEngine/main.cpp"
+}
+]
