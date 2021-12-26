@@ -1,13 +1,11 @@
 #include <iostream>
-#include "Vector.h"
+#include "./Core/include/Core.hpp"
 using namespace std;
 
 int main()
 {
-    Vector vec;
-    vec.x=1;
-    vec.y=1;
-    vec.z=1;
-    float d=glm::dot(vec,glm::vec3());
-    cout<<"Hello Taurus Engine"<<endl;
+    Vector vec1(1.0f,0.0f,0.0f);
+    Vector vec2(0.0f,1.0f,0.0f);
+    float dist=Dot(vec1,vec2);
+    Vector vec3=Cross(vec1,vec2);
 }
