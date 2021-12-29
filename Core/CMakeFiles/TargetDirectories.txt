@@ -1,0 +1,3 @@
+/home/shanjingongzi/TaurusEngine/Core/CMakeFiles/Core.dir
+/home/shanjingongzi/TaurusEngine/Core/CMakeFiles/edit_cache.dir
+/home/shanjingongzi/TaurusEngine/Core/CMakeFiles/rebuild_cache.dir
