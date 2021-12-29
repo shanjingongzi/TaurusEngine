@@ -1,3 +1,5 @@
+#ifndef AABB_H
+#define AABB_H
 #include "Core.hpp"
 class AABB{
 	public:
@@ -7,3 +9,4 @@ class AABB{
 		Point min;
 		float d[3];
 };
+#endif 

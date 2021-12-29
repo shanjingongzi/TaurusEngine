@@ -11,8 +11,18 @@
 },
 {
   "directory": "/home/shanjingongzi/TaurusEngine/build/Core",
+  "command": "/usr/bin/c++  -I/home/shanjingongzi/TaurusEngine/Core/include -g -o CMakeFiles/Core.dir/src/OBB.cpp.o -c /home/shanjingongzi/TaurusEngine/Core/src/OBB.cpp",
+  "file": "/home/shanjingongzi/TaurusEngine/Core/src/OBB.cpp"
+},
+{
+  "directory": "/home/shanjingongzi/TaurusEngine/build/Core",
   "command": "/usr/bin/c++  -I/home/shanjingongzi/TaurusEngine/Core/include -g -o CMakeFiles/Core.dir/src/Octree.cpp.o -c /home/shanjingongzi/TaurusEngine/Core/src/Octree.cpp",
   "file": "/home/shanjingongzi/TaurusEngine/Core/src/Octree.cpp"
+},
+{
+  "directory": "/home/shanjingongzi/TaurusEngine/build/Core",
+  "command": "/usr/bin/c++  -I/home/shanjingongzi/TaurusEngine/Core/include -g -o CMakeFiles/Core.dir/src/Plane.cpp.o -c /home/shanjingongzi/TaurusEngine/Core/src/Plane.cpp",
+  "file": "/home/shanjingongzi/TaurusEngine/Core/src/Plane.cpp"
 },
 {
   "directory": "/home/shanjingongzi/TaurusEngine/build/Core",

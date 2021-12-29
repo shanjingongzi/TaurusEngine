@@ -1,3 +1,5 @@
+#ifndef SPHERE_H 
+#define SPHERE_H
 #include "Core.hpp"
 
 class Sphere
@@ -10,3 +12,4 @@ class Sphere
 		Point center;
 		float radius;
 };
+#endif

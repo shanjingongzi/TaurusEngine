@@ -174,6 +174,30 @@ src/AABB.cpp.s:
 	cd /home/shanjingongzi/TaurusEngine/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/AABB.cpp.s
 .PHONY : src/AABB.cpp.s
 
+src/OBB.o: src/OBB.cpp.o
+.PHONY : src/OBB.o
+
+# target to build an object file
+src/OBB.cpp.o:
+	cd /home/shanjingongzi/TaurusEngine/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/OBB.cpp.o
+.PHONY : src/OBB.cpp.o
+
+src/OBB.i: src/OBB.cpp.i
+.PHONY : src/OBB.i
+
+# target to preprocess a source file
+src/OBB.cpp.i:
+	cd /home/shanjingongzi/TaurusEngine/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/OBB.cpp.i
+.PHONY : src/OBB.cpp.i
+
+src/OBB.s: src/OBB.cpp.s
+.PHONY : src/OBB.s
+
+# target to generate assembly for a file
+src/OBB.cpp.s:
+	cd /home/shanjingongzi/TaurusEngine/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/OBB.cpp.s
+.PHONY : src/OBB.cpp.s
+
 src/Octree.o: src/Octree.cpp.o
 .PHONY : src/Octree.o
 
@@ -197,6 +221,30 @@ src/Octree.s: src/Octree.cpp.s
 src/Octree.cpp.s:
 	cd /home/shanjingongzi/TaurusEngine/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Octree.cpp.s
 .PHONY : src/Octree.cpp.s
+
+src/Plane.o: src/Plane.cpp.o
+.PHONY : src/Plane.o
+
+# target to build an object file
+src/Plane.cpp.o:
+	cd /home/shanjingongzi/TaurusEngine/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Plane.cpp.o
+.PHONY : src/Plane.cpp.o
+
+src/Plane.i: src/Plane.cpp.i
+.PHONY : src/Plane.i
+
+# target to preprocess a source file
+src/Plane.cpp.i:
+	cd /home/shanjingongzi/TaurusEngine/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Plane.cpp.i
+.PHONY : src/Plane.cpp.i
+
+src/Plane.s: src/Plane.cpp.s
+.PHONY : src/Plane.s
+
+# target to generate assembly for a file
+src/Plane.cpp.s:
+	cd /home/shanjingongzi/TaurusEngine/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Plane.cpp.s
+.PHONY : src/Plane.cpp.s
 
 src/Sphere.o: src/Sphere.cpp.o
 .PHONY : src/Sphere.o
@@ -236,9 +284,15 @@ help:
 	@echo "... src/AABB.o"
 	@echo "... src/AABB.i"
 	@echo "... src/AABB.s"
+	@echo "... src/OBB.o"
+	@echo "... src/OBB.i"
+	@echo "... src/OBB.s"
 	@echo "... src/Octree.o"
 	@echo "... src/Octree.i"
 	@echo "... src/Octree.s"
+	@echo "... src/Plane.o"
+	@echo "... src/Plane.i"
+	@echo "... src/Plane.s"
 	@echo "... src/Sphere.o"
 	@echo "... src/Sphere.i"
 	@echo "... src/Sphere.s"

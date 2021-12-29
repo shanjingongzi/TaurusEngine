@@ -98,7 +98,7 @@ Core/clean: Core/CMakeFiles/Core.dir/clean
 CMakeFiles/TaurusEngine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaurusEngine.dir/build.make CMakeFiles/TaurusEngine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaurusEngine.dir/build.make CMakeFiles/TaurusEngine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shanjingongzi/TaurusEngine/build/CMakeFiles --progress-num=5,6 "Built target TaurusEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shanjingongzi/TaurusEngine/build/CMakeFiles --progress-num=7,8 "Built target TaurusEngine"
 .PHONY : CMakeFiles/TaurusEngine.dir/all
 
 # Build rule for subdir invocation for target.
@@ -124,12 +124,12 @@ CMakeFiles/TaurusEngine.dir/clean:
 Core/CMakeFiles/Core.dir/all:
 	$(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/depend
 	$(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shanjingongzi/TaurusEngine/build/CMakeFiles --progress-num=1,2,3,4 "Built target Core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shanjingongzi/TaurusEngine/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Core"
 .PHONY : Core/CMakeFiles/Core.dir/all
 
 # Build rule for subdir invocation for target.
 Core/CMakeFiles/Core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shanjingongzi/TaurusEngine/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shanjingongzi/TaurusEngine/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/CMakeFiles/Core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shanjingongzi/TaurusEngine/build/CMakeFiles 0
 .PHONY : Core/CMakeFiles/Core.dir/rule

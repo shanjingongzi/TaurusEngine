@@ -83,10 +83,24 @@ Core/CMakeFiles/Core.dir/src/AABB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/src/AABB.cpp.s"
 	cd /home/shanjingongzi/TaurusEngine/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shanjingongzi/TaurusEngine/Core/src/AABB.cpp -o CMakeFiles/Core.dir/src/AABB.cpp.s
 
+Core/CMakeFiles/Core.dir/src/OBB.cpp.o: Core/CMakeFiles/Core.dir/flags.make
+Core/CMakeFiles/Core.dir/src/OBB.cpp.o: ../Core/src/OBB.cpp
+Core/CMakeFiles/Core.dir/src/OBB.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shanjingongzi/TaurusEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Core/CMakeFiles/Core.dir/src/OBB.cpp.o"
+	cd /home/shanjingongzi/TaurusEngine/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/Core.dir/src/OBB.cpp.o -MF CMakeFiles/Core.dir/src/OBB.cpp.o.d -o CMakeFiles/Core.dir/src/OBB.cpp.o -c /home/shanjingongzi/TaurusEngine/Core/src/OBB.cpp
+
+Core/CMakeFiles/Core.dir/src/OBB.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/src/OBB.cpp.i"
+	cd /home/shanjingongzi/TaurusEngine/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shanjingongzi/TaurusEngine/Core/src/OBB.cpp > CMakeFiles/Core.dir/src/OBB.cpp.i
+
+Core/CMakeFiles/Core.dir/src/OBB.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/src/OBB.cpp.s"
+	cd /home/shanjingongzi/TaurusEngine/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shanjingongzi/TaurusEngine/Core/src/OBB.cpp -o CMakeFiles/Core.dir/src/OBB.cpp.s
+
 Core/CMakeFiles/Core.dir/src/Octree.cpp.o: Core/CMakeFiles/Core.dir/flags.make
 Core/CMakeFiles/Core.dir/src/Octree.cpp.o: ../Core/src/Octree.cpp
 Core/CMakeFiles/Core.dir/src/Octree.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shanjingongzi/TaurusEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Core/CMakeFiles/Core.dir/src/Octree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shanjingongzi/TaurusEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Core/CMakeFiles/Core.dir/src/Octree.cpp.o"
 	cd /home/shanjingongzi/TaurusEngine/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/Core.dir/src/Octree.cpp.o -MF CMakeFiles/Core.dir/src/Octree.cpp.o.d -o CMakeFiles/Core.dir/src/Octree.cpp.o -c /home/shanjingongzi/TaurusEngine/Core/src/Octree.cpp
 
 Core/CMakeFiles/Core.dir/src/Octree.cpp.i: cmake_force
@@ -97,10 +111,24 @@ Core/CMakeFiles/Core.dir/src/Octree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/src/Octree.cpp.s"
 	cd /home/shanjingongzi/TaurusEngine/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shanjingongzi/TaurusEngine/Core/src/Octree.cpp -o CMakeFiles/Core.dir/src/Octree.cpp.s
 
+Core/CMakeFiles/Core.dir/src/Plane.cpp.o: Core/CMakeFiles/Core.dir/flags.make
+Core/CMakeFiles/Core.dir/src/Plane.cpp.o: ../Core/src/Plane.cpp
+Core/CMakeFiles/Core.dir/src/Plane.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shanjingongzi/TaurusEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Core/CMakeFiles/Core.dir/src/Plane.cpp.o"
+	cd /home/shanjingongzi/TaurusEngine/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/Core.dir/src/Plane.cpp.o -MF CMakeFiles/Core.dir/src/Plane.cpp.o.d -o CMakeFiles/Core.dir/src/Plane.cpp.o -c /home/shanjingongzi/TaurusEngine/Core/src/Plane.cpp
+
+Core/CMakeFiles/Core.dir/src/Plane.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/src/Plane.cpp.i"
+	cd /home/shanjingongzi/TaurusEngine/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shanjingongzi/TaurusEngine/Core/src/Plane.cpp > CMakeFiles/Core.dir/src/Plane.cpp.i
+
+Core/CMakeFiles/Core.dir/src/Plane.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/src/Plane.cpp.s"
+	cd /home/shanjingongzi/TaurusEngine/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shanjingongzi/TaurusEngine/Core/src/Plane.cpp -o CMakeFiles/Core.dir/src/Plane.cpp.s
+
 Core/CMakeFiles/Core.dir/src/Sphere.cpp.o: Core/CMakeFiles/Core.dir/flags.make
 Core/CMakeFiles/Core.dir/src/Sphere.cpp.o: ../Core/src/Sphere.cpp
 Core/CMakeFiles/Core.dir/src/Sphere.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shanjingongzi/TaurusEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Core/CMakeFiles/Core.dir/src/Sphere.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shanjingongzi/TaurusEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Core/CMakeFiles/Core.dir/src/Sphere.cpp.o"
 	cd /home/shanjingongzi/TaurusEngine/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/Core.dir/src/Sphere.cpp.o -MF CMakeFiles/Core.dir/src/Sphere.cpp.o.d -o CMakeFiles/Core.dir/src/Sphere.cpp.o -c /home/shanjingongzi/TaurusEngine/Core/src/Sphere.cpp
 
 Core/CMakeFiles/Core.dir/src/Sphere.cpp.i: cmake_force
@@ -114,18 +142,22 @@ Core/CMakeFiles/Core.dir/src/Sphere.cpp.s: cmake_force
 # Object files for target Core
 Core_OBJECTS = \
 "CMakeFiles/Core.dir/src/AABB.cpp.o" \
+"CMakeFiles/Core.dir/src/OBB.cpp.o" \
 "CMakeFiles/Core.dir/src/Octree.cpp.o" \
+"CMakeFiles/Core.dir/src/Plane.cpp.o" \
 "CMakeFiles/Core.dir/src/Sphere.cpp.o"
 
 # External object files for target Core
 Core_EXTERNAL_OBJECTS =
 
 Core/libCore.a: Core/CMakeFiles/Core.dir/src/AABB.cpp.o
+Core/libCore.a: Core/CMakeFiles/Core.dir/src/OBB.cpp.o
 Core/libCore.a: Core/CMakeFiles/Core.dir/src/Octree.cpp.o
+Core/libCore.a: Core/CMakeFiles/Core.dir/src/Plane.cpp.o
 Core/libCore.a: Core/CMakeFiles/Core.dir/src/Sphere.cpp.o
 Core/libCore.a: Core/CMakeFiles/Core.dir/build.make
 Core/libCore.a: Core/CMakeFiles/Core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shanjingongzi/TaurusEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libCore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shanjingongzi/TaurusEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libCore.a"
 	cd /home/shanjingongzi/TaurusEngine/build/Core && $(CMAKE_COMMAND) -P CMakeFiles/Core.dir/cmake_clean_target.cmake
 	cd /home/shanjingongzi/TaurusEngine/build/Core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Core.dir/link.txt --verbose=$(VERBOSE)
 

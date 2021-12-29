@@ -9,7 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/shanjingongzi/TaurusEngine/Core/src/AABB.cpp" "Core/CMakeFiles/Core.dir/src/AABB.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/AABB.cpp.o.d"
+  "/home/shanjingongzi/TaurusEngine/Core/src/OBB.cpp" "Core/CMakeFiles/Core.dir/src/OBB.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/OBB.cpp.o.d"
   "/home/shanjingongzi/TaurusEngine/Core/src/Octree.cpp" "Core/CMakeFiles/Core.dir/src/Octree.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/Octree.cpp.o.d"
+  "/home/shanjingongzi/TaurusEngine/Core/src/Plane.cpp" "Core/CMakeFiles/Core.dir/src/Plane.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/Plane.cpp.o.d"
   "/home/shanjingongzi/TaurusEngine/Core/src/Sphere.cpp" "Core/CMakeFiles/Core.dir/src/Sphere.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/Sphere.cpp.o.d"
   )
 

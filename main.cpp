@@ -1,6 +1,7 @@
 #include <iostream>
 #include "./Core/include/Core.hpp"
 #include "./Core/include/Sphere.h"
+#include "boost/thread/thread.hpp"
 using namespace std;
 
 int main()
@@ -10,4 +11,6 @@ int main()
     float dist=Dot(vec1,vec2);
     Vector vec3=Cross(vec1,vec2);
     cout<<"hello TaurusEigen"<<endl;
+    boost::thread t([](){return 1;});
+    t.join();
 }
